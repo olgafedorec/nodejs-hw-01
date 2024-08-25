@@ -8,4 +8,7 @@ export const getAllContacts = async () => {
     return JSON.parse(data);
 };
 
+console.log(await getAllContacts());
+
+
 
